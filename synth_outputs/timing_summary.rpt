@@ -1,9 +1,9 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version      : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date              : Thu Oct 22 10:01:12 2026
-| Host              : analysis running 64-bit Ubuntu 24.04.4 LTS
-| Command           : report_timing_summary -file /home/analysis/PR/Jayati_help/sample_fnn/synth_outputs/timing_summary.rpt
+| Tool Version      : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date              : Sun Oct 25 21:18:33 2026
+| Host              : DESKTOP-8BRNNVL running 64-bit major release  (build 9200)
+| Command           : report_timing_summary -file F:/codes/Verilog/Non_project_mode/sample_fnn/synth_outputs/timing_summary.rpt
 | Design            : sample_fnn
 | Device            : xczu7eg-ffvc1156
 | Speed File        : -1  PRODUCTION 1.30 05-15-2022
