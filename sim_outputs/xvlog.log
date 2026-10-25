@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/codes/Verilog/Non_project_mode/sample_fnn/sources/sample_fnn.v" into library work
+INFO: [VRFC 10-311] analyzing module sample_fnn
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/codes/Verilog/Non_project_mode/sample_fnn/sources/sample_fnn_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module sample_fnn_tb

@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Oct 25 20:39:12 2026
+# Process ID         : 22896
+# Current directory  : F:/codes/Verilog/Non_project_mode/sample_fnn/sim_outputs
+# Command line       : xsim.exe -source {xsim.dir/sample_fnn_tb_sim/xsim_script.tcl}
+# Log file           : F:/codes/Verilog/Non_project_mode/sample_fnn/sim_outputs/xsim.log
+# Journal file       : F:/codes/Verilog/Non_project_mode/sample_fnn/sim_outputs\xsim.jou
+# Running On         : DESKTOP-8BRNNVL
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+# CPU Frequency      : 1800 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8462 MB
+# Swap memory        : 3966 MB
+# Total Virtual      : 12428 MB
+# Available Virtual  : 3002 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/sample_fnn_tb_sim/xsim_script.tcl
+# set_param project.enableReportConfiguration 0
+# load_feature core
+# current_fileset
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2024.2/data/ip'.
+current_fileset: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1140.859 ; gain = 102.488
+# xsim {sample_fnn_tb_sim} -wdb {F:/codes/Verilog/Non_project_mode/sample_fnn/sim_outputs/sample_fnn.wdb} -autoloadwcfg -tclbatch {F:/codes/Verilog/Non_project_mode/sample_fnn/sim_outputs/view_wave.tcl}
+Time resolution is 1 ps
+source F:/codes/Verilog/Non_project_mode/sample_fnn/sim_outputs/view_wave.tcl
+## log_wave -r /*
+ERROR: [Simulator 45-10] The current simulation was compiled without trace information.  To perform the requested operation, please recompile the design with -debug all or typical.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Oct 25 20:42:39 2026...

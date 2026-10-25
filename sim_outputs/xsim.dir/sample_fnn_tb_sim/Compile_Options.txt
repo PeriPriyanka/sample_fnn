@@ -1,0 +1,1 @@
+"sample_fnn_tb" -debug "typical" -s "sample_fnn_tb_sim" 
