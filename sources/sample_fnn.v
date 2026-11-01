@@ -39,7 +39,7 @@ assign m22 = (w22*x2);
 assign m13 = (w13*x1);
 assign m23 = (w23*x2);
 
-initial
+/*initial
 begin
 	$monitor($time, "m11= %d",m11);
 	$monitor($time, "m21= %d",m21);
@@ -47,19 +47,19 @@ begin
 	$monitor($time, "m22= %d",m22);
 	$monitor($time, "m13= %d",m13);
 	$monitor($time, "m23= %d",m23);
-end
+end */
 
 
 assign a1 = (m11>>16) + (m21>>16) +b1;
 assign a2 = (m12>>16) + (m22>>16) +b2;
 assign a3 = (m13>>16) + (m23>>16) +b3;
 
-initial
+/*initial
 begin
 	$monitor($time, "a1= %d",a1);
 	$monitor($time, "a2= %d",a2);
 	$monitor($time, "a3= %d",a3);
-end
+end */
 
 
 function signed [15:0] relu;
@@ -73,12 +73,12 @@ endfunction
 wire signed [15:0]a_1= relu(a1);
 wire signed [15:0]a_2 = relu(a2);
 wire signed [15:0]a_3 = relu(a3);
-initial 
+/*initial 
 begin
-$monitor($time, "a_1=%d", a_1);
-$monitor($time, "a_2=%d", a_2);
-$monitor($time, "a_3=%d", a_3);
-end
+	$monitor($time, "a_1=%d", a_1);
+	$monitor($time, "a_2=%d", a_2);
+	$monitor($time, "a_3=%d", a_3);
+end */
 
 
 wire signed  [15:0] a;
