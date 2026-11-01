@@ -9,8 +9,8 @@ sample_fnn uut(.x1(x1), .x2(x2), .y(y));
 
 initial
 begin
-x1=9387;
-x2=24134;
+x1=13992;
+x2=7408;
 
 #50$finish;
 end
